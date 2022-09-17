@@ -1,11 +1,11 @@
 {
-    "gazebo_model_sdf": {
-		"prefix": "ign_world",
+    "sdf_model_file": {
+		"prefix": "sdf_model_file",
 		"body": [
 		  "<?xml version=\"1.0\"?>",
-		  "<sdf version=\"${1|1.7|}\">",
-		  "<world name=\"${2}\">",
-		  "</world>",
+		  "<sdf version=\"${1|1.5,1.6|}\">",
+		  "<model name=\"${2}\">",
+		  "</model>",
 		  "</sdf>"
 		]
 	}

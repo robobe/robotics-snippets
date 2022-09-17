@@ -3,8 +3,18 @@
   "displayName": "robotics_snippets",
   "description": "ROS2, Gazebo, Ignition, SDF, URDF snippets and more",
   "version": "0.0.1",
+  "publisher": "robobe",
+	"icon": "media/icon.png",
+	"keywords": [
+		"ros",
+		"robot"
+	],
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/SweiLz/ROS-Snippets"
+	},
   "engines": {
-    "vscode": "^1.71.0"
+    "vscode": "^1.51.0"
   },
   "categories": [
     "Snippets"
@@ -28,6 +38,10 @@
 			}
 		],
     "snippets": [
+      {
+        "language": "xml",
+        "path": "./snippets/ign.code-snippets"
+      },
       {
         "language": "xml",
         "path": "./snippets/sdf.code-snippets"
